@@ -49,6 +49,8 @@ table {
 
 * {
     box-sizing: border-box;
+    border:1px solid grey;
+
 }
 
 html, body {
@@ -77,6 +79,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin:3%;
 }
 
 .top-content .text-container {
@@ -91,7 +94,7 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 0 5%;
     margin-bottom: 0;
 }
 
@@ -99,6 +102,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 3%;
 }
 
 .middle-content .boxes .box {
@@ -143,4 +147,29 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.PapaDiv{
+    display:flex;
+    justify-content: space-around;
+    padding: 1% 13%;
+    align-items: center;
+    
+}
+.BabyContainer{
+    display:flex;
+    justify-content: space-around;
+}
+.class1{
+    width:100px;
+    padding-left: 9%;
+
+}
+
+.traffic{
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-left: 3%;
+
 }
